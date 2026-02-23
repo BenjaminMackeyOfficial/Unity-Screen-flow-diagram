@@ -134,7 +134,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfd049be4f8f19c4ca7b1809ea34090b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loadUIStrategy: {fileID: 11400000, guid: b125286e1f434cb4da02b024a11ad5cc, type: 2}
+  loadUIStrategyPrefab: {fileID: 11400000, guid: b125286e1f434cb4da02b024a11ad5cc, type: 2}
   hotKey: 0
 --- !u!1 &1350983604505529933
 GameObject:

@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f70d13a42e2edd348a1854b7b2a4e2bc, type: 3}
   m_Name: Return
   m_EditorClassIdentifier: 
-  importantUIState: 0
+  canvas: {fileID: 0}
   newCan: {fileID: 0}

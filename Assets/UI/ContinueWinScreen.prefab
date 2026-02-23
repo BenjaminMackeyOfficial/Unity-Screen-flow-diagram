@@ -172,7 +172,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfd049be4f8f19c4ca7b1809ea34090b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loadUIStrategy: {fileID: 11400000, guid: 570afcec5c9cbf445b827b4ea40209e4, type: 2}
+  loadUIStrategyPrefab: {fileID: 11400000, guid: 570afcec5c9cbf445b827b4ea40209e4, type: 2}
   hotKey: 0
 --- !u!1 &5866813053173584575
 GameObject:

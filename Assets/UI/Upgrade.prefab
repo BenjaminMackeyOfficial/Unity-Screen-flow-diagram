@@ -52,7 +52,6 @@ GameObject:
   - component: {fileID: 2288435770551265552}
   - component: {fileID: 7615146095908191223}
   - component: {fileID: 667228374555150714}
-  - component: {fileID: 8333723126429587527}
   m_Layer: 0
   m_Name: UpgradeMot (1)
   m_TagString: Untagged
@@ -162,20 +161,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &8333723126429587527
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 280165085255214520}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dfd049be4f8f19c4ca7b1809ea34090b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  loadUIStrategy: {fileID: 0}
-  hotKey: 0
 --- !u!1 &632932902133656326
 GameObject:
   m_ObjectHideFlags: 0
@@ -445,7 +430,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfd049be4f8f19c4ca7b1809ea34090b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loadUIStrategy: {fileID: 11400000, guid: 041d97ba834cdf34aa47d48a6c3ecd9c, type: 2}
+  loadUIStrategyPrefab: {fileID: 11400000, guid: 041d97ba834cdf34aa47d48a6c3ecd9c, type: 2}
   hotKey: 27
 --- !u!1 &1537607799461221868
 GameObject:
@@ -890,7 +875,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfd049be4f8f19c4ca7b1809ea34090b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loadUIStrategy: {fileID: 11400000, guid: 94c3cd1a73949674d892167c977874a5, type: 2}
+  loadUIStrategyPrefab: {fileID: 11400000, guid: 94c3cd1a73949674d892167c977874a5, type: 2}
   hotKey: 0
 --- !u!1 &6213791797015750199
 GameObject:
@@ -1115,7 +1100,6 @@ GameObject:
   - component: {fileID: 4670543905123797820}
   - component: {fileID: 6903900336261346314}
   - component: {fileID: 5458592506705915481}
-  - component: {fileID: 7249233855499118005}
   m_Layer: 0
   m_Name: UpgradeMot
   m_TagString: Untagged
@@ -1225,20 +1209,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &7249233855499118005
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7084984079665199536}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dfd049be4f8f19c4ca7b1809ea34090b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  loadUIStrategy: {fileID: 0}
-  hotKey: 0
 --- !u!1 &8933096436919963676
 GameObject:
   m_ObjectHideFlags: 0
@@ -1251,7 +1221,6 @@ GameObject:
   - component: {fileID: 9023298313240158537}
   - component: {fileID: 864418414362937650}
   - component: {fileID: 8752002327351310385}
-  - component: {fileID: 5771858924017000820}
   m_Layer: 0
   m_Name: UpgradeMot (2)
   m_TagString: Untagged
@@ -1361,17 +1330,3 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &5771858924017000820
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8933096436919963676}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dfd049be4f8f19c4ca7b1809ea34090b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  loadUIStrategy: {fileID: 0}
-  hotKey: 0

@@ -16,17 +16,19 @@ public class UIManager : MonoBehaviour
     public void OnRequest(LoadUIStrategy strat)
     {
         if(Time.time < CooldownReq) return;
-        Debug.Log("e");
         if(strat == null) return;
+
 
         que[que.Count - 1].UnloadScreen();
         if(dontAdd)
         {
             que.RemoveAt(que.Count - 1);
+            que.RemoveAt(que.Count - 1);
         }
         dontAdd = false;
         if(strat.canvas == null)
         {
+            Debug.Log("AAAAAAAAAAA");
             dontAdd = true;
         }
 
@@ -34,7 +36,7 @@ public class UIManager : MonoBehaviour
 
 
         que.Add(strat);
-        
+        Debug.Log(que.Count);
         CooldownReq = Time.time + UICooldown;
         //gameStateManager.UpdateState(currentStrat.importantUIState); 
     }

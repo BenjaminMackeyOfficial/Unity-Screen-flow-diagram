@@ -13,10 +13,9 @@ public class ReturnUILoadStrategy : LoadUIStrategy // mon specific
         {
             parentCanvas = UIManager.Instance.transform.GetComponentInChildren<Canvas>();
         }
+        
         if(currentCanvas == null) return;
-        
         newCan = Instantiate(currentCanvas, parentCanvas.transform);
-        
     }
     public override void UnloadScreen()
     {

@@ -307,7 +307,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfd049be4f8f19c4ca7b1809ea34090b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loadUIStrategy: {fileID: 11400000, guid: 041d97ba834cdf34aa47d48a6c3ecd9c, type: 2}
+  loadUIStrategyPrefab: {fileID: 11400000, guid: 041d97ba834cdf34aa47d48a6c3ecd9c, type: 2}
   hotKey: 27
 --- !u!1 &3905589415692264809
 GameObject:
@@ -443,7 +443,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfd049be4f8f19c4ca7b1809ea34090b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loadUIStrategy: {fileID: 11400000, guid: 03245db7a8552854e8894d573fd5cbcc, type: 2}
+  loadUIStrategyPrefab: {fileID: 11400000, guid: 03245db7a8552854e8894d573fd5cbcc, type: 2}
   hotKey: 0
 --- !u!1 &6871590608943695966
 GameObject:
